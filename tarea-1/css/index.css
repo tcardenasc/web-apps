@@ -1,0 +1,76 @@
+:root {
+    /* display: flex;
+    padding: 3rem 23.125rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between; */
+    background: #081409;
+}
+
+.container {
+    display: flex;
+    /* width: 90rem;
+    height: 64rem; */
+    overflow: hidden;
+    /* padding: 3rem 23.125rem; */
+    background: #081409;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.btn-index {
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 3px solid #081409;
+    box-shadow: 10px 10px 0px 0px #000;
+    background: #FFD200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #081409;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: normal;
+    text-align: center;
+    transition: background-color 0.25s;
+}
+
+.btn-index:hover { 
+    background: #FE4F3A;
+}
+
+.btn-index:active {
+    background: #0CC;
+    transition: background-color 0s;
+}
+
+.logo {
+    max-width: 32.1875rem;
+    /* min-width: 32.1875rem; */
+    /* height: 26.875rem; */
+    flex-shrink: 1;
+    /* background: url("../assets/Santiago_2023_-_Versión_cuadrada.png"), lightgray 50% / cover no-repeat; */
+}
+
+.frame {
+    display: flex;
+    flex-shrink: 1;
+    max-width: 43.75rem;
+    overflow: hidden;
+    padding: 1.875rem;
+    border-radius: 1.5625rem;
+    background: #0074FF;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1.875rem;
+    flex-wrap: wrap;
+}
